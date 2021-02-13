@@ -1,0 +1,133 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+}
+.main
+{
+    background-color: #333333;
+    min-height: 100vh;
+}
+.main1
+{
+    width: 10%;
+    float: left;
+    text-align: center;
+    border-right-style: solid;
+    border-right-color: #e0e0e0;
+    border-right-width: 1px;
+    min-height: 100vh;
+}
+.main1txt
+{
+    color: #e0e0e0;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 'Audiowide';
+}
+.main2
+{
+    width: 90%;
+    text-align: center;
+    color: #e0e0e0;
+}
+.smedia
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.sm
+{
+    margin-top: 60vh;
+}
+.main2txt
+{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 30vh;
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+}
+.rotate {
+    animation: rotation 10s infinite linear;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 60%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+.main2txt1
+{
+    font-size: 35px;
+    text-align: center;
+}  
+@media screen and (max-width:450px)
+{
+    .main1
+    {
+        width: 20%;
+    }
+    .main2
+    {
+        width: 80%;
+    }
+    .rotate
+    {
+        width: 80px;
+        height: 80px;
+    }
+    .main2txt
+    {
+        font-size: 50px;
+    }
+    .main2txt1
+    {
+        font-size: 15px;
+    }
+    .main1txt
+    {
+        margin: 10px;
+    }
+}
+.cv
+{
+    margin: 20px;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    right: -2%;
+    color: white;
+}
+a.cv:hover
+{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+@media screen and (max-width:450px)
+{
+    .cv
+    {
+        font-size: 12px;
+        top: 7%;
+        right: -7%;
+    }
+}
