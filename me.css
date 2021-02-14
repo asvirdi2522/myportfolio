@@ -1,3 +1,7 @@
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     margin: 0;
@@ -147,7 +151,7 @@ a.cv:active
     .cv
     {
         font-size: 12px;
-        top: 7%;
+        top: 6%;
         right: -7%;
         background-color: #333333;
     }
@@ -224,4 +228,119 @@ a.cv:active
     transform: scaleX(1);
     border-radius: 20px;
   }
-  
+.abimg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    padding: 10px;
+    margin-top: 40px;
+    box-shadow:  11px 11px 24px #a8a8a8,
+             -11px -11px 24px #ffffff;
+}  
+.abtxt
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    padding: 20px;
+    margin-top: 20px;
+    /*background: rgba( 255, 255, 255, 0.30 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+}
+.abtxt1
+{
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Source Sans Pro';
+    padding: 10px;
+    padding: 20px;
+}
+.about
+{
+    margin: 0;
+    background-color: #e0e0e0;
+}
+.skills
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+    color: #e0e0e0;
+}
+#skw3
+{
+    padding: 70px;
+    background-color: #333333;
+    margin-top: 50px;
+}
+@media screen and (max-width:600px)
+{
+    .skills
+    {
+        font-size: 30px;
+        padding: 20px;
+    }
+    #skw3
+    {
+        padding: 20px;
+    }
+}
+@media screen and (max-width:380px)
+{
+    .abtxt
+    {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .abtxt1
+    {
+        font-size: 50px;
+    }
+} 
+.website
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+.des
+{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: #e0e0e0;
+    border-width: 10px;
+}
+.q1
+{
+    text-align: center;
+}
+.q11
+{
+    text-align: center;
+}
+#con1
+{
+    padding: 20px;
+}
+@media screen and (max-width:800px)
+{
+    .des
+    {
+        margin-top: 50px;
+    }
+}
