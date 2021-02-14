@@ -79,6 +79,7 @@ body
     .main1
     {
         width: 20%;
+        border: none;
     }
     .main2
     {
@@ -100,6 +101,10 @@ body
     .main1txt
     {
         margin: 10px;
+    }
+    .sm
+    {
+        margin-top: 50vh;
     }
 }
 .cv
