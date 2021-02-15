@@ -481,6 +481,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 .work
 {
     margin-top: 60px;
+    background-color: #333333;
+    min-height: 80vh;
 }
 .wi
 {
@@ -489,7 +491,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
     font-size: 50px;
     color: #e0e0e0;
 }
-.workimg
+.workimg0
 {
     height: 200px;
     width: 200px;
@@ -501,6 +503,16 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 }
 .workimg1
 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: 200px;
+    padding: 10px;
+}
+.workimg2
+{
     height: 350px;
     width: 350px;
     position: absolute;
@@ -510,7 +522,43 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
     margin-top: 200px;
     padding: 10px;
 }
-.worktxt
+.worktxt0
+{
+    min-height: 375px;
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #333333;
+    background: rgba( 255, 255, 255, 0.60 );
+    box-shadow: 0 3px 4px 0 rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.worktxt1
+{
+    min-height: 375px;
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #333333;
+    background: rgba( 255, 255, 255, 0.60 );
+    box-shadow: 0 3px 4px 0 rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.worktxt2
 {
     min-height: 375px;
     position: absolute;
@@ -537,4 +585,177 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
     padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+@media screen and (max-width:1030px)
+{
+    #row3
+    {
+        padding: 0px;
+    }
+    #con3
+    {
+        padding: 0px;
+    }
+    .worktxt0
+    {
+        min-height: 500px;
+    }
+    .worktxt1
+    {
+        min-height: 500px;
+    }
+    .worktxt2
+    {
+        min-height: 500px;
+    }
+    .work
+    {
+        min-height: 55vh;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .worktxt0
+    {
+        min-height: 375px;
+    }
+    .worktxt1
+    {
+        min-height: 375px;
+        margin-top: 450px;
+    }
+    .worktxt2
+    {
+        min-height: 375px;
+        margin-top: 870px;
+    }
+    .workimg1
+    {
+        margin-top: 650px;
+    }
+    .workimg2
+    {
+        margin-top: 1050px;
+    }
+    .work
+    {
+        min-height: 200vh;
+    }
+    .wi
+    {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .wi
+    {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:450px)
+{
+    #row3
+    {
+        padding: 0px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .workimg2
+    {
+        margin-top: 980px;
+    }
+    .worktxt2
+    {
+        margin-top: 800px;
+        padding: 5px;
+    }
+    .worktxt0
+    {
+        padding: 5px;
+        margin-top: 0px;
+    }
+    .worktxt1
+    {
+        padding: 5px;
+        margin-top: 400px;
+    }
+    .workimg1
+    {
+        margin-top: 600px;
+    }
+}
+@media screen and (max-width:380px)
+{
+    .work
+    {
+        min-height: 240vh;
+    }
+    .worktxt2
+    {
+        margin-top: 880px;
+    }
+    .workimg2
+    {
+        margin-top: 1050px;
+    }
+}
+@media screen and (max-width:370px)
+{
+    #row3
+    {
+        margin-left: 1px;
+        margin-right: 1px;
+        padding: 0px;
+    }
+    .work
+    {
+        min-height: 240vh;
+    }
+    .worktxt2
+    {
+        margin-top: 820px;
+    }
+    .workimg2
+    {
+        margin-top: 1000px;
+    }
+}
+@media screen and (max-width:330px)
+{
+    .work
+    {
+        min-height: 240vh;
+    }
+    .worktxt2
+    {
+        margin-top: 825px;
+    }
+    .workimg0
+    {
+        height: 200px;
+        width: 200px;
+    }
+    .workimg1
+    {
+        margin-top: 570px;
+        height: 200px;
+        width: 200px;
+    }
+    .workimg2
+    {
+        margin-top: 1000px;
+        height: 290px;
+        width: 290px;
+    }
+    #row3
+    {
+        padding: 0px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    #con3
+    {
+        padding: 0px;
+    }
 }
