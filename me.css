@@ -759,3 +759,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
         padding: 0px;
     }
 }
+button:focus {
+    outline: 0 !important;
+}
+a#A:hover
+{
+    text-decoration: none;
+}
+a.cv:link
+{
+    text-decoration: none;
+}
